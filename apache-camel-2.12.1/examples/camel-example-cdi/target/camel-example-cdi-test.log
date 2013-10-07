@@ -1,0 +1,82 @@
+2013-10-03 18:59:50,654 [main           ] INFO  Version                        - WELD-000900 1.1.5 (Final)
+2013-10-03 18:59:52,322 [main           ] INFO  CdiCamelContext                - Apache Camel 2.12.1 (CamelContext: camel-2) is starting
+2013-10-03 18:59:52,984 [main           ] INFO  ManagedManagementStrategy      - JMX is enabled
+2013-10-03 18:59:53,244 [main           ] INFO  DefaultTypeConverter           - Loaded 179 type converters
+2013-10-03 18:59:53,273 [main           ] INFO  CdiCamelContext                - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2013-10-03 18:59:53,292 [main           ] INFO  CdiCamelContext                - Total 0 routes, of which 0 is started.
+2013-10-03 18:59:53,295 [main           ] INFO  CdiCamelContext                - Apache Camel 2.12.1 (CamelContext: camel-2) started in 0.971 seconds
+2013-10-03 18:59:53,522 [main           ] INFO  FileEndpoint                   - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2013-10-03 18:59:53,522 [main           ] INFO  FileEndpoint                   - Using default memory based idempotent repository with cache max size: 1000
+2013-10-03 18:59:53,603 [main           ] INFO  CdiCamelContext                - Route: route1 started and consuming from: Endpoint[file://src/data?noop=true]
+2013-10-03 18:59:53,659 [main           ] INFO  CdiCamelContext                - Route: route2 started and consuming from: Endpoint[file://target/testdata/queue]
+2013-10-03 18:59:53,679 [main           ] INFO  CdiCamelContext                - Apache Camel 2.12.1 (CamelContext: camel-2) is shutting down
+2013-10-03 18:59:53,680 [main           ] INFO  DefaultShutdownStrategy        - Starting to graceful shutdown 2 routes (timeout 300 seconds)
+2013-10-03 18:59:53,688 [ - ShutdownTask] INFO  DefaultShutdownStrategy        - Route: route2 shutdown complete, was consuming from: Endpoint[file://target/testdata/queue]
+2013-10-03 18:59:53,689 [ - ShutdownTask] INFO  DefaultShutdownStrategy        - Route: route1 shutdown complete, was consuming from: Endpoint[file://src/data?noop=true]
+2013-10-03 18:59:53,690 [main           ] INFO  DefaultShutdownStrategy        - Graceful shutdown of 2 routes completed in 0 seconds
+2013-10-03 18:59:53,701 [main           ] INFO  CdiCamelContext                - Apache Camel 2.12.1 (CamelContext: camel-2) uptime 1.379 seconds
+2013-10-03 18:59:53,701 [main           ] INFO  CdiCamelContext                - Apache Camel 2.12.1 (CamelContext: camel-2) is shutdown in 0.021 seconds
+2013-10-03 18:59:55,385 [main           ] INFO  Version                        - WELD-000900 1.1.5 (Final)
+2013-10-03 18:59:56,842 [main           ] INFO  CdiCamelContext                - Apache Camel 2.12.1 (CamelContext: camel-2) is starting
+2013-10-03 18:59:56,843 [main           ] INFO  ManagedManagementStrategy      - JMX is enabled
+2013-10-03 18:59:57,086 [main           ] INFO  DefaultTypeConverter           - Loaded 179 type converters
+2013-10-03 18:59:57,113 [main           ] INFO  CdiCamelContext                - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2013-10-03 18:59:57,132 [main           ] INFO  CdiCamelContext                - Total 0 routes, of which 0 is started.
+2013-10-03 18:59:57,134 [main           ] INFO  CdiCamelContext                - Apache Camel 2.12.1 (CamelContext: camel-2) started in 0.291 seconds
+2013-10-03 18:59:57,230 [main           ] INFO  TestRouteBuilder               - consuming from output: Endpoint[file://target/testdata/result?noop=true] to : Endpoint[mock://result]
+2013-10-03 19:00:00,653 [main           ] INFO  FileEndpoint                   - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2013-10-03 19:00:00,653 [main           ] INFO  FileEndpoint                   - Using default memory based idempotent repository with cache max size: 1000
+2013-10-03 19:00:00,718 [main           ] INFO  CdiCamelContext                - Route: route1 started and consuming from: Endpoint[file://target/testdata/result?noop=true]
+2013-10-03 19:00:00,734 [main           ] INFO  FileEndpoint                   - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2013-10-03 19:00:00,734 [main           ] INFO  FileEndpoint                   - Using default memory based idempotent repository with cache max size: 1000
+2013-10-03 19:00:00,768 [main           ] INFO  CdiCamelContext                - Route: route2 started and consuming from: Endpoint[file://src/data?noop=true]
+2013-10-03 19:00:00,831 [main           ] INFO  CdiCamelContext                - Route: route3 started and consuming from: Endpoint[file://target/testdata/queue]
+2013-10-03 19:00:00,892 [main           ] INFO  CdiCamelContext                - Apache Camel 2.12.1 (CamelContext: camel-2) is shutting down
+2013-10-03 19:00:00,893 [main           ] INFO  DefaultShutdownStrategy        - Starting to graceful shutdown 3 routes (timeout 300 seconds)
+2013-10-03 19:00:00,898 [ - ShutdownTask] INFO  DefaultShutdownStrategy        - Route: route3 shutdown complete, was consuming from: Endpoint[file://target/testdata/queue]
+2013-10-03 19:00:00,899 [ - ShutdownTask] INFO  DefaultShutdownStrategy        - Route: route2 shutdown complete, was consuming from: Endpoint[file://src/data?noop=true]
+2013-10-03 19:00:00,899 [ - ShutdownTask] INFO  DefaultShutdownStrategy        - Route: route1 shutdown complete, was consuming from: Endpoint[file://target/testdata/result?noop=true]
+2013-10-03 19:00:00,900 [main           ] INFO  DefaultShutdownStrategy        - Graceful shutdown of 3 routes completed in 0 seconds
+2013-10-03 19:00:00,917 [main           ] INFO  CdiCamelContext                - Apache Camel 2.12.1 (CamelContext: camel-2) uptime 4.077 seconds
+2013-10-03 19:00:00,917 [main           ] INFO  CdiCamelContext                - Apache Camel 2.12.1 (CamelContext: camel-2) is shutdown in 0.025 seconds
+2013-10-07 18:28:11,442 [main           ] INFO  Version                        - WELD-000900 1.1.5 (Final)
+2013-10-07 18:28:13,332 [main           ] INFO  CdiCamelContext                - Apache Camel 2.12.1 (CamelContext: camel-2) is starting
+2013-10-07 18:28:13,333 [main           ] INFO  ManagedManagementStrategy      - JMX is enabled
+2013-10-07 18:28:13,596 [main           ] INFO  DefaultTypeConverter           - Loaded 179 type converters
+2013-10-07 18:28:13,625 [main           ] INFO  CdiCamelContext                - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2013-10-07 18:28:13,643 [main           ] INFO  CdiCamelContext                - Total 0 routes, of which 0 is started.
+2013-10-07 18:28:13,646 [main           ] INFO  CdiCamelContext                - Apache Camel 2.12.1 (CamelContext: camel-2) started in 0.313 seconds
+2013-10-07 18:28:13,861 [main           ] INFO  FileEndpoint                   - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2013-10-07 18:28:13,861 [main           ] INFO  FileEndpoint                   - Using default memory based idempotent repository with cache max size: 1000
+2013-10-07 18:28:13,944 [main           ] INFO  CdiCamelContext                - Route: route1 started and consuming from: Endpoint[file://src/data?noop=true]
+2013-10-07 18:28:14,079 [main           ] INFO  CdiCamelContext                - Route: route2 started and consuming from: Endpoint[file://target/testdata/queue]
+2013-10-07 18:28:14,103 [main           ] INFO  CdiCamelContext                - Apache Camel 2.12.1 (CamelContext: camel-2) is shutting down
+2013-10-07 18:28:14,104 [main           ] INFO  DefaultShutdownStrategy        - Starting to graceful shutdown 2 routes (timeout 300 seconds)
+2013-10-07 18:28:14,110 [ - ShutdownTask] INFO  DefaultShutdownStrategy        - Route: route2 shutdown complete, was consuming from: Endpoint[file://target/testdata/queue]
+2013-10-07 18:28:14,111 [ - ShutdownTask] INFO  DefaultShutdownStrategy        - Route: route1 shutdown complete, was consuming from: Endpoint[file://src/data?noop=true]
+2013-10-07 18:28:14,111 [main           ] INFO  DefaultShutdownStrategy        - Graceful shutdown of 2 routes completed in 0 seconds
+2013-10-07 18:28:14,125 [main           ] INFO  CdiCamelContext                - Apache Camel 2.12.1 (CamelContext: camel-2) uptime 0.795 seconds
+2013-10-07 18:28:14,126 [main           ] INFO  CdiCamelContext                - Apache Camel 2.12.1 (CamelContext: camel-2) is shutdown in 0.022 seconds
+2013-10-07 18:28:16,566 [main           ] INFO  Version                        - WELD-000900 1.1.5 (Final)
+2013-10-07 18:28:17,899 [main           ] INFO  CdiCamelContext                - Apache Camel 2.12.1 (CamelContext: camel-2) is starting
+2013-10-07 18:28:17,900 [main           ] INFO  ManagedManagementStrategy      - JMX is enabled
+2013-10-07 18:28:18,165 [main           ] INFO  DefaultTypeConverter           - Loaded 179 type converters
+2013-10-07 18:28:18,194 [main           ] INFO  CdiCamelContext                - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2013-10-07 18:28:18,214 [main           ] INFO  CdiCamelContext                - Total 0 routes, of which 0 is started.
+2013-10-07 18:28:18,217 [main           ] INFO  CdiCamelContext                - Apache Camel 2.12.1 (CamelContext: camel-2) started in 0.317 seconds
+2013-10-07 18:28:18,317 [main           ] INFO  TestRouteBuilder               - consuming from output: Endpoint[file://target/testdata/result?noop=true] to : Endpoint[mock://result]
+2013-10-07 18:28:18,502 [main           ] INFO  FileEndpoint                   - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2013-10-07 18:28:18,502 [main           ] INFO  FileEndpoint                   - Using default memory based idempotent repository with cache max size: 1000
+2013-10-07 18:28:18,581 [main           ] INFO  CdiCamelContext                - Route: route1 started and consuming from: Endpoint[file://target/testdata/result?noop=true]
+2013-10-07 18:28:18,594 [main           ] INFO  FileEndpoint                   - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2013-10-07 18:28:18,594 [main           ] INFO  FileEndpoint                   - Using default memory based idempotent repository with cache max size: 1000
+2013-10-07 18:28:18,623 [main           ] INFO  CdiCamelContext                - Route: route2 started and consuming from: Endpoint[file://src/data?noop=true]
+2013-10-07 18:28:18,684 [main           ] INFO  CdiCamelContext                - Route: route3 started and consuming from: Endpoint[file://target/testdata/queue]
+2013-10-07 18:28:18,741 [main           ] INFO  CdiCamelContext                - Apache Camel 2.12.1 (CamelContext: camel-2) is shutting down
+2013-10-07 18:28:18,741 [main           ] INFO  DefaultShutdownStrategy        - Starting to graceful shutdown 3 routes (timeout 300 seconds)
+2013-10-07 18:28:18,748 [ - ShutdownTask] INFO  DefaultShutdownStrategy        - Route: route3 shutdown complete, was consuming from: Endpoint[file://target/testdata/queue]
+2013-10-07 18:28:18,749 [ - ShutdownTask] INFO  DefaultShutdownStrategy        - Route: route2 shutdown complete, was consuming from: Endpoint[file://src/data?noop=true]
+2013-10-07 18:28:18,750 [ - ShutdownTask] INFO  DefaultShutdownStrategy        - Route: route1 shutdown complete, was consuming from: Endpoint[file://target/testdata/result?noop=true]
+2013-10-07 18:28:18,750 [main           ] INFO  DefaultShutdownStrategy        - Graceful shutdown of 3 routes completed in 0 seconds
+2013-10-07 18:28:18,765 [main           ] INFO  CdiCamelContext                - Apache Camel 2.12.1 (CamelContext: camel-2) uptime 0.868 seconds
+2013-10-07 18:28:18,765 [main           ] INFO  CdiCamelContext                - Apache Camel 2.12.1 (CamelContext: camel-2) is shutdown in 0.024 seconds

@@ -1,0 +1,65 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Camel :: Example :: Twitter WebSocket
+
+
+From: 'an unknown organization'
+  - twitter4j-core (http://twitter4j.org/) org.twitter4j:twitter4j-core:jar:3.0.3
+    License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - twitter4j-stream (http://twitter4j.org/) org.twitter4j:twitter4j-stream:jar:3.0.3
+    License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+From: 'Apache Software Foundation' (http://www.apache.org)
+  - Apache Log4j (http://logging.apache.org/log4j/1.2/) log4j:log4j:bundle:1.2.17
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Mort Bay Consulting' (http://www.mortbay.com)
+  - Jetty :: Asynchronous HTTP Client ({$jetty.url}) org.eclipse.jetty:jetty-client:jar:7.6.9.v20130131
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Continuation (http://www.eclipse.org/jetty/jetty-continuation) org.eclipse.jetty:jetty-continuation:jar:7.6.9.v20130131
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Http Utility (http://www.eclipse.org/jetty/jetty-http) org.eclipse.jetty:jetty-http:jar:7.6.9.v20130131
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: IO Utility (http://www.eclipse.org/jetty/jetty-io) org.eclipse.jetty:jetty-io:jar:7.6.9.v20130131
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: JMX Management (http://www.eclipse.org/jetty/jetty-jmx) org.eclipse.jetty:jetty-jmx:jar:7.6.9.v20130131
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Security (http://www.eclipse.org/jetty/jetty-security) org.eclipse.jetty:jetty-security:jar:7.6.9.v20130131
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Server Core (http://www.eclipse.org/jetty/jetty-server) org.eclipse.jetty:jetty-server:jar:7.6.9.v20130131
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Servlet Handling (http://www.eclipse.org/jetty/jetty-servlet) org.eclipse.jetty:jetty-servlet:jar:7.6.9.v20130131
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Utility Servlets and Filters (http://www.eclipse.org/jetty/jetty-servlets) org.eclipse.jetty:jetty-servlets:jar:7.6.9.v20130131
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Utilities (http://www.eclipse.org/jetty/jetty-util) org.eclipse.jetty:jetty-util:jar:7.6.9.v20130131
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Websocket (http://www.eclipse.org/jetty/jetty-websocket) org.eclipse.jetty:jetty-websocket:jar:7.6.9.v20130131
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty Orbit :: Servlet API (http://www.eclipse.org/jetty/jetty-orbit/javax.servlet) org.eclipse.jetty.orbit:javax.servlet:orbit:2.5.0.v201103041518
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+
+From: 'Oracle Corporation' (http://www.oracle.com/)
+  - JAXB Reference Implementation (http://jaxb.java.net/) com.sun.xml.bind:jaxb-impl:jar:2.2.6
+    License: CDDL 1.1  (https://glassfish.java.net/public/CDDL+GPL_1_1.html)    License: GPL2 w/ CPE  (https://glassfish.java.net/public/CDDL+GPL_1_1.html)
+
+From: 'QOS.ch' (http://www.qos.ch)
+  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.6.6
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+  - SLF4J LOG4J-12 Binding (http://www.slf4j.org) org.slf4j:slf4j-log4j12:jar:1.7.5
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Camel :: Core (http://camel.apache.org/camel-parent/camel-core) org.apache.camel:camel-core:bundle:2.12.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Camel :: Twitter (http://camel.apache.org/camel-parent/components/camel-twitter) org.apache.camel:camel-twitter:bundle:2.12.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Camel :: WebSocket (http://camel.apache.org/camel-parent/components/camel-websocket) org.apache.camel:camel-websocket:bundle:2.12.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

@@ -1,0 +1,43 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Camel :: Example :: MyBatis
+
+
+From: 'Apache Software Foundation' (http://db.apache.org/)
+  - Apache Derby Database Engine and Embedded JDBC Driver (http://db.apache.org/derby/derby/) org.apache.derby:derby:jar:10.10.1.1
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'MyBatis.org' (http://www.mybatis.org/)
+  - MyBatis (http://www.mybatis.org/core/) org.mybatis:mybatis:jar:3.2.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Oracle Corporation' (http://www.oracle.com/)
+  - JAXB Reference Implementation (http://jaxb.java.net/) com.sun.xml.bind:jaxb-impl:jar:2.2.6
+    License: CDDL 1.1  (https://glassfish.java.net/public/CDDL+GPL_1_1.html)    License: GPL2 w/ CPE  (https://glassfish.java.net/public/CDDL+GPL_1_1.html)
+
+From: 'QOS.ch' (http://www.qos.ch)
+  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.6.6
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Commons DBCP (http://commons.apache.org/dbcp/) commons-dbcp:commons-dbcp:jar:1.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Pool (http://commons.apache.org/pool/) commons-pool:commons-pool:jar:1.6
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Camel :: Blueprint (http://camel.apache.org/camel-parent/components/camel-blueprint) org.apache.camel:camel-blueprint:bundle:2.12.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Camel :: Core (http://camel.apache.org/camel-parent/camel-core) org.apache.camel:camel-core:bundle:2.12.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Camel :: Core OSGi (http://camel.apache.org/camel-parent/components/camel-core-osgi) org.apache.camel:camel-core-osgi:bundle:2.12.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Camel :: Core XML (http://camel.apache.org/camel-parent/components/camel-core-xml) org.apache.camel:camel-core-xml:jar:2.12.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Camel :: MyBatis (http://camel.apache.org/camel-parent/components/camel-mybatis) org.apache.camel:camel-mybatis:bundle:2.12.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

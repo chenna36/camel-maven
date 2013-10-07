@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1381150837876
+Build-Jdk: 1.7.0_25
+Built-By: root
+Bundle-Description: An example for showing Camel using JDBC component
+Bundle-DocURL: http://www.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: camel-example-jdbc
+Bundle-SymbolicName: org.apache.camel.camel-example-jdbc
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.12.1
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Export-Package: org.apache.camel.example.jdbc;uses:="org.apache.camel,or
+ g.slf4j";version="2.12.1"
+Implementation-Title: Apache Camel
+Implementation-Version: 2.12.1
+Import-Package: org.apache.camel;version="[2.12,2.13)",org.apache.camel.
+ component.dataset;version="[2.12,2.13)",org.slf4j;version="[1.6,2)"
+Karaf-Info: Camel;camel-example-jdbc=2.12.1
+Tool: Bnd-1.50.0

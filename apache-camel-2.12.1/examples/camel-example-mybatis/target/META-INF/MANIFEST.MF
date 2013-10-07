@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1381150898135
+Build-Jdk: 1.7.0_25
+Built-By: root
+Bundle-Description: An example for showing Camel using MyBatis SQL mappe
+ r component
+Bundle-DocURL: http://www.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: camel-example-mybatis
+Bundle-SymbolicName: org.apache.camel.camel-example-mybatis
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.12.1
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.camel.example.mybatis;uses:="org.apache.ibati
+ s.mapping,org.apache.camel.component.mybatis,org.apache.ibatis.session,
+ javax.sql,org.apache.camel,org.slf4j";version="2.12.1"
+Implementation-Title: Apache Camel
+Implementation-Version: 2.12.1
+Import-Package: javax.sql,org.apache.camel;version="[2.12,3)",org.apache
+ .camel.component.mybatis;version="[2.12,3)",org.apache.ibatis.mapping;v
+ ersion="[3.2,4)",org.apache.ibatis.session;version="[3.2,4)",org.osgi.s
+ ervice.blueprint;version="[1.0.0,2.0.0)",org.slf4j;version="[1.6,2)"
+Karaf-Info: Camel;camel-example-mybatis=2.12.1
+Tool: Bnd-1.50.0

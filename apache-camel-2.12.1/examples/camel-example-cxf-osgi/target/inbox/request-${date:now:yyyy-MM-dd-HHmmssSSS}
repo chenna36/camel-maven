@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:inputReportIncident xmlns:ns2="http://reportincident.example.camel.apache.org">
+    <incidentId>123</incidentId>
+    <incidentDate>2008-08-18</incidentDate>
+    <givenName>Guest</givenName>
+    <familyName>Ibsen</familyName>
+    <summary>Bla</summary>
+    <details>Bla bla</details>
+    <email>davsclaus@apache.org</email>
+    <phone>0045 2962 7576</phone>
+</ns2:inputReportIncident>

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.camel.loanbroker.webservice.version.LoanBrokerWSTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.136 sec - in org.apache.camel.loanbroker.webservice.version.LoanBrokerWSTest

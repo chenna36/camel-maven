@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+  <name>camel-example-reportincident-wssecurity</name>
+  <comment>An example based on real life use case for reporting incidents using webservice that are transformed
+      and send as emails to a backing system. Client calling the WebService is authentified through WS-Security. NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+  <projects/>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+    <buildCommand>
+      <name>net.sf.eclipsecs.core.CheckstyleBuilder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+    <nature>net.sf.eclipsecs.core.CheckstyleNature</nature>
+  </natures>
+</projectDescription>

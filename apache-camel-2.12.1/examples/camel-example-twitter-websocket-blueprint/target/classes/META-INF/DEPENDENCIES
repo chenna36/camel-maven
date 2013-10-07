@@ -1,0 +1,15 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Camel :: Example :: Twitter WebSocket using OSGi Blueprint
+
+
+From: 'Oracle Corporation' (http://www.oracle.com/)
+  - JAXB Reference Implementation (http://jaxb.java.net/) com.sun.xml.bind:jaxb-impl:jar:2.2.6
+    License: CDDL 1.1  (https://glassfish.java.net/public/CDDL+GPL_1_1.html)    License: GPL2 w/ CPE  (https://glassfish.java.net/public/CDDL+GPL_1_1.html)
+
+
+
+

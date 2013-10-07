@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.camel.example.cafe.CafeRouteSpringTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.523 sec - in org.apache.camel.example.cafe.CafeRouteSpringTest

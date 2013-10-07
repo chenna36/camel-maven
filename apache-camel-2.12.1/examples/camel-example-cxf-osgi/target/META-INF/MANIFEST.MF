@@ -1,0 +1,44 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1381150787081
+Build-Jdk: 1.7.0_25
+Built-By: root
+Bundle-Description: An example which use a CXF consumer and the OSGI HTT
+ P Service
+Bundle-DocURL: http://www.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: camel-example-cxf-osgi
+Bundle-SymbolicName: org.apache.camel.camel-example-cxf-osgi
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.12.1
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.camel.example.reportincident;uses:="javax.xml
+ .bind.annotation,javax.jws.soap,javax.jws,javax.xml.ws,javax.xml.namesp
+ ace,org.apache.camel.builder,org.apache.camel.model,org.apache.camel";v
+ ersion="2.12.1"
+Implementation-Title: Apache Camel
+Implementation-Version: 2.12.1
+Import-Package: javax.jws,javax.jws.soap,javax.xml.bind.annotation,javax
+ .xml.namespace,javax.xml.ws,org.apache.camel;version="[2.12,3)",org.apa
+ che.camel.builder;version="[2.12,3)",org.apache.camel.model;version="[2
+ .12,3)",org.apache.cxf;version="[2.7,3)",org.apache.cxf.binding;version
+ ="[2.7,3)",org.apache.cxf.binding.corba,org.apache.cxf.binding.soap;ver
+ sion="[2.7,3)",org.apache.cxf.binding.soap.spring;version="[2.7,3)",org
+ .apache.cxf.bus;version="[2.7,3)",org.apache.cxf.bus.resource;version="
+ [2.7,3)",org.apache.cxf.bus.spring;version="[2.7,3)",org.apache.cxf.bus
+ lifecycle;version="[2.7,3)",org.apache.cxf.catalog;version="[2.7,3)",or
+ g.apache.cxf.configuration;version="[2.7,3)",org.apache.cxf.configurati
+ on.spring;version="[2.7,3)",org.apache.cxf.endpoint;version="[2.7,3)",o
+ rg.apache.cxf.headers;version="[2.7,3)",org.apache.cxf.management;versi
+ on="[2.7,3)",org.apache.cxf.management.jmx,org.apache.cxf.phase;version
+ ="[2.7,3)",org.apache.cxf.resource;version="[2.7,3)",org.apache.cxf.ser
+ vice.factory;version="[2.7,3)",org.apache.cxf.transport;version="[2.7,3
+ )",org.apache.cxf.transport.http;version="[2.7,3)",org.apache.cxf.trans
+ port.http.policy;version="[2.7,3)",org.apache.cxf.transport.http_jetty,
+ org.apache.cxf.transport.jms,org.apache.cxf.transports.http;version="[2
+ .7,3)",org.apache.cxf.workqueue;version="[2.7,3)",org.apache.cxf.wsdl;v
+ ersion="[2.7,3)",org.apache.cxf.wsdl11;version="[2.7,3)",org.apache.ws.
+ security.action,org.apache.ws.security.processor,org.springframework.be
+ ans.factory.config,org.springframework.mail.javamail
+Karaf-Info: Camel;camel-example-cxf-osgi=2.12.1
+Tool: Bnd-1.50.0

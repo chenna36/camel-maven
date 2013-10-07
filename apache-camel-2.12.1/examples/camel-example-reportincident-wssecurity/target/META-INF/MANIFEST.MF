@@ -1,0 +1,47 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1381150982601
+Build-Jdk: 1.7.0_25
+Built-By: root
+Bundle-Description: An example based on real life use case for reporting
+  incidents using webservice that are transformed      and send as email
+ s to a backing system. Client calling the WebService is authentified th
+ rough WS-Security
+Bundle-DocURL: http://www.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: camel-example-reportincident-wssecurity
+Bundle-SymbolicName: camel-example-reportincident-wssecurity
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.12.1
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.camel.example.reportincident;uses:="javax.xml
+ .bind.annotation,javax.jws.soap,javax.jws,javax.xml.ws,javax.xml.namesp
+ ace,javax.security.auth.callback,org.apache.ws.security";version="2.12.
+ 1"
+Implementation-Title: Apache Camel
+Implementation-Version: 2.12.1
+Import-Package: META-INF.cxf;version="[2.7,3)",javax.jws,javax.jws.soap,
+ javax.security.auth.callback,javax.xml.bind.annotation,javax.xml.namesp
+ ace,javax.xml.ws,org.apache.cxf;version="[2.7,3)",org.apache.cxf.bindin
+ g;version="[2.7,3)",org.apache.cxf.binding.corba,org.apache.cxf.binding
+ .soap;version="[2.7,3)",org.apache.cxf.binding.soap.spring;version="[2.
+ 7,3)",org.apache.cxf.bus;version="[2.7,3)",org.apache.cxf.bus.resource;
+ version="[2.7,3)",org.apache.cxf.bus.spring;version="[2.7,3)",org.apach
+ e.cxf.buslifecycle;version="[2.7,3)",org.apache.cxf.catalog;version="[2
+ .7,3)",org.apache.cxf.configuration;version="[2.7,3)",org.apache.cxf.co
+ nfiguration.spring;version="[2.7,3)",org.apache.cxf.endpoint;version="[
+ 2.7,3)",org.apache.cxf.headers;version="[2.7,3)",org.apache.cxf.interce
+ ptor;version="[2.7,3)",org.apache.cxf.management;version="[2.7,3)",org.
+ apache.cxf.management.jmx,org.apache.cxf.phase;version="[2.7,3)",org.ap
+ ache.cxf.resource;version="[2.7,3)",org.apache.cxf.transport;version="[
+ 2.7,3)",org.apache.cxf.transport.http;version="[2.7,3)",org.apache.cxf.
+ transport.http.policy;version="[2.7,3)",org.apache.cxf.transport.http_j
+ etty;version="[2.7,3)",org.apache.cxf.transport.jms,org.apache.cxf.tran
+ sports.http;version="[2.7,3)",org.apache.cxf.workqueue;version="[2.7,3)
+ ",org.apache.cxf.ws.security.wss4j;version="[2.7,3)",org.apache.cxf.wsd
+ l;version="[2.7,3)",org.apache.cxf.wsdl11;version="[2.7,3)",org.apache.
+ ws.security;version="[1.6,2)",org.apache.ws.security.action;version="[1
+ .6,2)",org.apache.ws.security.processor;version="[1.6,2)",org.springfra
+ mework.beans.factory.config,org.springframework.mail.javamail
+Karaf-Info: Camel;camel-example-reportincident-wssecurity=2.12.1
+Tool: Bnd-1.50.0

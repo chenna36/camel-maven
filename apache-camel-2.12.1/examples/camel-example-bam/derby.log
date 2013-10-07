@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Thu Oct 03 13:40:08 IST 2013:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance a816c00e-0141-7d5d-e618-00000374fe10 
+on database directory /home/chennareddy/Documents/apache-camel-2.12.1/examples/camel-example-bam/target/test/database with class loader java.net.URLClassLoader@3ab5ab4c 
+Loaded from file:/root/.m2/repository/org/apache/derby/derby/10.10.1.1/derby-10.10.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_25-b15
+user.dir=/home/chennareddy/Documents/apache-camel-2.12.1/examples/camel-example-bam
+os.name=Linux
+os.arch=amd64
+os.version=3.5.0-41-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

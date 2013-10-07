@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1381151052040
+Build-Jdk: 1.7.0_25
+Built-By: root
+Bundle-Description: A Certificate secured SSH example that creates a bun
+ dle that can be dropped into any OSGi container
+Bundle-DocURL: http://www.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: camel-example-ssh-security
+Bundle-SymbolicName: org.apache.camel.camel-example-ssh-security
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.12.1
+Created-By: Apache Maven Bundle Plugin
+Implementation-Title: Apache Camel
+Implementation-Version: 2.12.1
+Karaf-Info: Camel;camel-example-ssh-security=2.12.1
+Tool: Bnd-1.50.0

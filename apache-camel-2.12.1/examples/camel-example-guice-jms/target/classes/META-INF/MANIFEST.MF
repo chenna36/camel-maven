@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1381150837296
+Build-Jdk: 1.7.0_25
+Built-By: root
+Bundle-Activator: org.apache.camel.example.guice.jms.MyActivator
+Bundle-Description: An example showing how to work with Camel, Guice and
+  JMS
+Bundle-DocURL: http://www.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: camel-example-guice-jms
+Bundle-SymbolicName: org.apache.camel.camel-example-guice-jms
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.12.1
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.camel.example.guice.jms;uses:="org.apache.cam
+ el.impl,org.apache.camel,org.osgi.framework,com.google.inject,org.apach
+ e.camel.guice.jndi,javax.jms,org.apache.camel.component.jms,org.apache.
+ activemq,org.apache.camel.guice,com.google.inject.name,com.google.injec
+ t.binder,org.apache.camel.builder,org.apache.camel.model,javax.naming,o
+ rg.apache.camel.guice.jndi.internal,org.apache.camel.osgi,org.apache.ca
+ mel.spi";version="2.12.1"
+Implementation-Title: Apache Camel
+Implementation-Version: 2.12.1
+Import-Package: com.google.inject;version="[1.3,2)",com.google.inject.bi
+ nder;version="[1.3,2)",com.google.inject.name;version="[1.3,2)",javax.j
+ ms;version="[1.1,2)",javax.naming,org.apache.activemq,org.apache.active
+ mq.broker,org.apache.activemq.pool,org.apache.activemq.xbean,org.apache
+ .camel;version="[2.12,2.13)",org.apache.camel.builder;version="[2.12,2.
+ 13)",org.apache.camel.component.jms;version="[2.12,2.13)",org.apache.ca
+ mel.guice;version="[2.12,2.13)",org.apache.camel.guice.jndi;version="[2
+ .12,2.13)",org.apache.camel.guice.jndi.internal;version="[2.12,2.13)",o
+ rg.apache.camel.impl;version="[2.12,2.13)",org.apache.camel.model;versi
+ on="[2.12,2.13)",org.apache.camel.osgi;version="[2.12,2.13)",org.apache
+ .camel.spi;version="[2.12,2.13)",org.osgi.framework;version="[1.5,2)"
+Karaf-Info: Camel;camel-example-guice-jms=2.12.1
+Tool: Bnd-1.50.0

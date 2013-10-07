@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1381150995459
+Build-Jdk: 1.7.0_25
+Built-By: root
+Bundle-Description: An example showing how to work with RSS and IRC endp
+ oints
+Bundle-DocURL: http://www.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: camel-example-simplejirabot-javadsl
+Bundle-SymbolicName: org.apache.camel.camel-example-simplejirabot-javads
+ l
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.12.1
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.camel.example.rss;uses:="org.apache.camel.bui
+ lder,org.apache.camel.model,org.apache.camel,org.apache.camel.builder.x
+ ml";version="2.12.1"
+Implementation-Title: Camel :: Example :: Simple Jira Bot :: Java DSL
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: org.apache.camel
+Implementation-Version: 2.12.1
+Import-Package: org.apache.camel;version="[2.12,2.13)",org.apache.camel.
+ builder;version="[2.12,2.13)",org.apache.camel.builder.xml;version="[2.
+ 12,2.13)",org.apache.camel.model;version="[2.12,2.13)"
+Karaf-Info: Camel;camel-example-simplejirabot-javadsl=2.12.1
+Main-Class: org.apache.camel.jmx.Main
+Specification-Title: Camel :: Example :: Simple Jira Bot :: Java DSL
+Specification-Vendor: The Apache Software Foundation
+Specification-Version: 2.12.1
+Tool: Bnd-1.50.0

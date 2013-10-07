@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1381150637482
+Build-Jdk: 1.7.0_25
+Built-By: root
+Bundle-Description: An example showing how to use Camel as a Business Ac
+ tivity Monitoring tool
+Bundle-DocURL: http://www.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: camel-example-bam
+Bundle-SymbolicName: org.apache.camel.camel-example-bam
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.12.1
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Export-Package: org.apache.camel.example.bam;uses:="org.apache.camel.spr
+ ing,org.springframework.orm.jpa,org.apache.camel.util,org.apache.camel.
+ model,org.apache.camel.bam.rules,org.apache.camel.bam,org.apache.camel,
+ org.apache.camel.builder.xml,org.springframework.transaction.support";v
+ ersion="2.12.1"
+Implementation-Title: Apache Camel
+Implementation-Version: 2.12.1
+Import-Package: org.apache.camel;version="[2.12,2.13)",org.apache.camel.
+ bam;version="[2.12,2.13)",org.apache.camel.bam.model;version="[2.12,3)"
+ ,org.apache.camel.bam.rules;version="[2.12,2.13)",org.apache.camel.buil
+ der.xml;version="[2.12,2.13)",org.apache.camel.model;version="[2.12,2.1
+ 3)",org.apache.camel.spring;version="[2.12,2.13)",org.apache.camel.util
+ ;version="[2.12,2.13)",org.apache.commons.dbcp;version="[1.4,2)",org.sp
+ ringframework.orm.jpa;version="[3.1,3.3)",org.springframework.orm.jpa.v
+ endor;version="[3.1,3.3)",org.springframework.transaction.support;versi
+ on="[3.1,3.3)"
+Karaf-Info: Camel;camel-example-bam=2.12.1
+Tool: Bnd-1.50.0

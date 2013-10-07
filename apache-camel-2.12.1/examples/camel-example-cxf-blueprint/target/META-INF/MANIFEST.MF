@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1381150772541
+Build-Jdk: 1.7.0_25
+Built-By: root
+Bundle-Description: An example which use a CXF consumer and the OSGI HTT
+ P Service
+Bundle-DocURL: http://www.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: camel-example-cxf-blueprint
+Bundle-SymbolicName: org.apache.camel.camel-example-cxf-blueprint
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.12.1
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.camel.example.reportincident;uses:="javax.xml
+ .bind.annotation,javax.jws.soap,javax.jws,javax.xml.ws,javax.xml.namesp
+ ace,org.apache.camel.builder,org.apache.camel.model,org.apache.camel";v
+ ersion="2.12.1"
+Implementation-Title: Apache Camel
+Implementation-Version: 2.12.1
+Import-Package: javax.jws,javax.jws.soap,javax.xml.bind.annotation,javax
+ .xml.namespace,javax.xml.ws,org.apache.camel;version="[2.12,3)",org.apa
+ che.camel.builder;version="[2.12,3)",org.apache.camel.model;version="[2
+ .12,3)",org.osgi.service.blueprint;version="[1.0.0,2.0.0)"
+Karaf-Info: Camel;camel-example-cxf-blueprint=2.12.1
+Tool: Bnd-1.50.0

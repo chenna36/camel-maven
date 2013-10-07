@@ -1,0 +1,12 @@
+Incident 123 has been reported on the 2008-08-18 by Claus Ibsen.
+
+The person can be contacted by:
+- email: davsclaus@apache.org
+- phone: 0045 2962 7576
+
+Summary: Bla
+
+Details:
+Bla bla
+
+This is an auto generated email. You cannot reply.
